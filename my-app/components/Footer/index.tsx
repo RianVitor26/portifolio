@@ -55,13 +55,13 @@ export const Footer = () => {
             </div>
         </div>
         <div className="w-full h-fit flex items-center justify-center gap-5 mb-5 md:justify-start">
-            <Link target="_blank" href={links.github} className="text-2xl text-gray-400"><FaGithub/></Link>
-            <Link target="_blank" href={links.contacts.linkedin} className="text-2xl text-gray-400"><FaLinkedin/></Link>
-            <Link target="_blank" href={links.contacts.gmail} className="text-2xl text-gray-400"><BiLogoGmail/></Link>
-            <Link target="_blank" href={links.contacts.discord} className="text-2xl text-gray-400"><FaDiscord/></Link>
+            <Link target="_blank" href={links.github} className="text-2xl text-gray-400 hover:-translate-y-1/3 hover:text-slate-800 transition-all duration-500"><FaGithub/></Link>
+            <Link target="_blank" href={links.contacts.linkedin} className="text-2xl text-gray-400 hover:-translate-y-1/3 hover:text-blue-500 transition-all duration-500"><FaLinkedin/></Link>
+            <Link target="_blank" href={links.contacts.gmail} className="text-2xl text-gray-400 hover:-translate-y-1/3 hover:text-red-500 transition-all duration-500"><BiLogoGmail/></Link>
+            <Link target="_blank" href={links.contacts.discord} className="text-2xl text-gray-400 hover:-translate-y-1/3 hover:text-indigo-500 transition-all duration-500"><FaDiscord/></Link>
         </div>
         <div className="w-full">
-              <p className="text-gray-400 text-center py-5">2023, Portifólio,  <Link target="_blank" href={links.github}>RianVitor26</Link></p>
+              <p className="text-gray-400 text-center py-5">2023, Portifólio,  <Link target="_blank" href={links.github} className="hover:text-blue-600 transition-all duration-500">RianVitor26</Link></p>
         </div>
     </footer>
   )
