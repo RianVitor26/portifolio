@@ -33,6 +33,9 @@ export const NavbarComponent = () =>  {
        <li>
         <Link href="/contacts">Contatos</Link>
        </li>
+       <li>
+        <Link target="_blank" href="https://notion-blog-ipb2de6bi-rianvitor26.vercel.app/blog">Blog</Link>
+       </li>
     </ul>
   );
  
