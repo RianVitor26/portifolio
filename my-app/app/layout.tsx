@@ -8,7 +8,10 @@ import { Header } from '@/components/Header'
 const raleway = Raleway({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'RianVitor26 | Portifólio',
+  title: {
+      template: '%s | RianVitor26',
+      default: 'Sobre | RianVitor26',
+  },
   description: 'Site portifólio de RianVitor26',
   authors: {name: 'RianVitor26'},
   colorScheme: 'light',

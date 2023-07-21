@@ -1,4 +1,9 @@
 import { TimeLine } from "@/components/TimeLine"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: 'Carreira'
+}
 
 const Carrer = () => {
   return (
