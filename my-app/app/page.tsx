@@ -1,3 +1,4 @@
+import { Skeleton } from "@/components/Skeleton";
 
 export default function About() {
   return (
@@ -7,7 +8,7 @@ export default function About() {
           <h2 className="text-gray-500">Desenvolvedor Full-Stack</h2>
       </div>
       <div className="w-full">
-          
+          <Skeleton/>
       </div>
    </div>
   )
