@@ -27,7 +27,7 @@ export const Footer = () => {
   }
 
   return (
-    <footer className="max-w-4xl w-11/12 px-5 pt-5 mx-auto">
+    <footer className="max-w-4xl w-11/12 px-5 pt-5 mx-auto mt-40">
         <div className="w-full grid grid-cols-2 grid-rows-2 gap-x-3 gap-y-5 mb-20 sm:grid-cols-3 sm:grid-rows-2  md:grid-cols-4 md:grid-rows-1">
             <div className="flex flex-col gap-3 h-fit">
                 <span className="pb-4 font-bold text-gray-800">Contatos</span>

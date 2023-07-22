@@ -3,7 +3,7 @@
 import React from "react";
 import {
   Navbar,
-  MobileNav,
+  Collapse,
   Button,
   IconButton,
 } from "@material-tailwind/react";
@@ -92,9 +92,9 @@ export const NavbarComponent = () =>  {
             </IconButton>
           </div>
         </div>
-        <MobileNav open={openNav}>
+        <Collapse open={openNav}>
           {navList}
-        </MobileNav>
+        </Collapse>
       </Navbar>
     </>
   );
