@@ -8,8 +8,6 @@ import {
   List,
   ListItem,
   ListItemPrefix,
-  ListItemSuffix,
-  Chip,
 } from "@material-tailwind/react";
 import { HiMenuAlt3 } from "react-icons/hi"
 import { FaRegAddressCard, FaBlogger } from "react-icons/fa"
