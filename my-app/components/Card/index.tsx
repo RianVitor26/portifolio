@@ -9,7 +9,7 @@ import {
     Button,
     Tooltip,
   } from "@material-tailwind/react";
-import { TooltipAnimation } from "../TooltipAnimation";
+import { GithubTooltip } from "../GithubTooltip";
 import Image from "next/image";
 import Link from "next/link";
    
@@ -33,7 +33,7 @@ import Link from "next/link";
             <Typography variant="h5" color="blue-gray" className="font-medium">
              {title}
             </Typography>
-            <TooltipAnimation projLink={srcCode}/>  
+            <GithubTooltip projLink={srcCode}/>  
           </div>
           <Typography color="gray">
            {desc}

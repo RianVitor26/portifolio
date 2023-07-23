@@ -6,7 +6,7 @@ interface ILinkProps {
   projLink: string
 }
  
-export const TooltipAnimation = ({projLink}: ILinkProps) =>  {
+export const GithubTooltip = ({projLink}: ILinkProps) =>  {
   return (
     <Tooltip
       className="bg-gray-900 text-gray-100 p-2 rounded-md"

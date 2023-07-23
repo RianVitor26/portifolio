@@ -5,7 +5,6 @@ import {
   Drawer,
   Button,
   Typography,
-  IconButton,
   List,
   ListItem,
   ListItemPrefix,
@@ -16,6 +15,7 @@ import { HiMenuAlt3 } from "react-icons/hi"
 import { FaRegAddressCard, FaBlogger } from "react-icons/fa"
 import { TbRoad } from "react-icons/tb"
 import { FiGitPullRequest } from "react-icons/fi"
+import { IoClose } from "react-icons/io5"
 
 import Link from "next/link";
 import { NavLinks } from "../NavLinks";
@@ -30,29 +30,14 @@ export const Sidebar = () => {
       <div className="flex w-full justify-between items-center px-5 py-3">
         <Link onClick={() => setOpen(false)} href="/" className="text-black font-semibold">RianVitor26</Link>
         <NavLinks/>
-        <Button onClick={openDrawer} className="p-2"><HiMenuAlt3 className="text-black text-2xl" /></Button>
+        <Button onClick={openDrawer} className="p-2"><HiMenuAlt3 className="text-black text-2xl"/></Button>
       </div>
-      <Drawer open={open} onClose={closeDrawer} className="fixed right-0-0 top-0 z-10  shadow-md">
+      <Drawer open={open} onClose={closeDrawer} className="fixed right-0-0 top-0 z-20 bg-white shadow-md">
         <div className="mb-2 flex items-center justify-between p-4">
           <Typography variant="h5" color="blue-gray">
             Menu
           </Typography>
-          <IconButton variant="text" color="blue-gray" onClick={closeDrawer}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={2}
-              stroke="currentColor"
-              className="h-5 w-5"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </IconButton>
+          <IoClose onClick={() => setOpen(false)} className="text-xl cursor-pointer"/>
         </div>
         <List>
           <Link onClick={() => setOpen(false)} href="/">
@@ -60,7 +45,7 @@ export const Sidebar = () => {
               <ListItemPrefix>
                 <FaRegAddressCard className="text-xl"/>
               </ListItemPrefix>
-              <span>Sobre</span>
+              <span className="ml-2">Sobre</span>
             </ListItem>
           </Link>
           <Link onClick={() => setOpen(false)} href="/carrer">
@@ -68,7 +53,7 @@ export const Sidebar = () => {
             <ListItemPrefix>
               <TbRoad className="text-xl"/>
             </ListItemPrefix>
-            <span>Carreira</span>
+            <span className="ml-2">Carreira</span>
           </ListItem>
           </Link>
           <Link onClick={() => setOpen(false)} href="/projects">
@@ -76,23 +61,14 @@ export const Sidebar = () => {
             <ListItemPrefix>
               <FiGitPullRequest  className="text-xl"/>
             </ListItemPrefix>
-            <span>Projetos</span>
-            <ListItemSuffix>
-              <Chip
-                value="3"
-                size="sm"
-                variant="ghost"
-                color="blue-gray"
-                className="rounded-full"
-              />
-            </ListItemSuffix>
+            <span className="ml-2">Projetos</span>
           </ListItem>
           </Link>
           <ListItem>
             <ListItemPrefix>
               <FaBlogger className="text-xl"/>
             </ListItemPrefix>
-            <Link target="_blank" href="https://notion-blog-ipb2de6bi-rianvitor26.vercel.app/blog">Blog</Link>
+            <Link target="_blank" href="https://notion-blog-ipb2de6bi-rianvitor26.vercel.app/blog" className="ml-2">Blog</Link>
           </ListItem>
         </List>
       </Drawer>
