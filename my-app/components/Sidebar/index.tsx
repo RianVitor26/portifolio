@@ -12,12 +12,13 @@ import {
   ListItemSuffix,
   Chip,
 } from "@material-tailwind/react";
-import { RiMenu2Line } from "react-icons/ri"
+import { HiMenuAlt3 } from "react-icons/hi"
 import { FaRegAddressCard, FaBlogger } from "react-icons/fa"
 import { TbRoad } from "react-icons/tb"
 import { FiGitPullRequest } from "react-icons/fi"
 
 import Link from "next/link";
+import { NavLinks } from "../NavLinks";
 
 export const Sidebar = () => {
   const [open, setOpen] = React.useState(false);
@@ -28,7 +29,8 @@ export const Sidebar = () => {
     <div>
       <div className="flex w-full justify-between items-center px-5 py-3">
         <Link onClick={() => setOpen(false)} href="/" className="text-black font-semibold">RianVitor26</Link>
-        <Button onClick={openDrawer} className="p-2"><RiMenu2Line className="text-black text-xl" /></Button>
+        <NavLinks/>
+        <Button onClick={openDrawer} className="p-2"><HiMenuAlt3 className="text-black text-2xl" /></Button>
       </div>
       <Drawer open={open} onClose={closeDrawer} className="fixed right-0-0 top-0 z-10  shadow-md">
         <div className="mb-2 flex items-center justify-between p-4">
