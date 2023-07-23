@@ -32,7 +32,7 @@ export const ContactPopover = () => {
           </div>
         </div>
         <List className="p-0">
-          <Link href="">
+          <Link target="_blank" href="mailto:rianvitorlhe@gmail.com">
             <ListItem>
               <ListItemPrefix>
                 <BiLogoGmail className="mr-2 text-xl text-red-600" />
@@ -42,7 +42,7 @@ export const ContactPopover = () => {
           </Link>
 
 
-          <Link href="">
+          <Link target="_blank" href="https://www.linkedin.com/in/rian-vitor-dos-santos-de-almeida-a036aa202/">
             <ListItem>
               <ListItemPrefix>
                 <FaLinkedin className="mr-2 text-xl text-blue-500" />
@@ -52,7 +52,7 @@ export const ContactPopover = () => {
           </Link>
 
 
-          <Link href="">
+          <Link target="_blank" href="https://discord.com/channels/@me">
             <ListItem>
               <ListItemPrefix>
                   <FaDiscord className="mr-2 text-xl text-indigo-600"/>

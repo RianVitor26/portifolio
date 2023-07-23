@@ -26,13 +26,13 @@ export const Sidebar = () => {
   const closeDrawer = () => setOpen(false);
 
   return (
-    <div>
+    <>
       <div className="flex w-full justify-between items-center px-5 py-3">
         <Link onClick={() => setOpen(false)} href="/" className="text-black font-semibold">RianVitor26</Link>
         <NavLinks/>
         <Button onClick={openDrawer} className="p-2"><HiMenuAlt3 className="text-black text-2xl"/></Button>
       </div>
-      <Drawer open={open} onClose={closeDrawer} className="fixed right-0-0 top-0 z-20 bg-white shadow-md">
+      <Drawer open={open} onClose={closeDrawer} className="fixed right-0-0 top-0 bg-white z-20">
         <div className="mb-2 flex items-center justify-between p-4">
           <Typography variant="h5" color="blue-gray">
             Menu
@@ -72,6 +72,6 @@ export const Sidebar = () => {
           </ListItem>
         </List>
       </Drawer>
-    </div>
+    </>
   );
 }
