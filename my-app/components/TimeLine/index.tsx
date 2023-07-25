@@ -77,7 +77,6 @@ export const TimeLine = () => {
               <li className="list-disc">Desenvolvi APIs REST em, consultas básicas em SQL, testes com Postman e uso dos bancos de dados (MySQL e MongoDB)</li>
               <li className="list-disc">Iniciei os estudos de Back-end em TypeScript com o Node (Express.js e Nest.js) </li>
               <li className="list-disc">Iniciei os estudos no Framework Next.js e no Framework CSS TailwindCSS</li>
-              <li className="list-disc">Aprendendo na prática com o desenvolvimento de um Ecommerce com Next e TailwindCSS no Front-end e Nestjs, Prima, MySQL, JWT, Swagger e Jest no Back-end</li>
             </ul>
 
           </TimelineBody>
