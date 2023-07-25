@@ -1,7 +1,7 @@
 import { Tooltip, Button } from "@material-tailwind/react";
-import { DiMongodb, DiJavascript } from "react-icons/di";
+import { DiMongodb } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
+import { SiExpress, SiTypescript } from "react-icons/si";
 
 
 export const Card2Tooltip = () => {
@@ -22,14 +22,14 @@ export const Card2Tooltip = () => {
     </Tooltip>
     <Tooltip
       className="bg-gray-900 p-3 text-gray-100 rounded-md"
-      content="JavaScript"
+      content="TypeScript"
       animate={{
         mount: { scale: 1, y: 0 },
         unmount: { scale: 0, y: 25 },
       }}
     >
       <Button className="shadow-none">
-        <DiJavascript className="text-3xl text-yellow-500"/>
+        <SiTypescript className="text-3xl text-sky-600"/>
       </Button>
 
     </Tooltip>
