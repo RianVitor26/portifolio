@@ -30,7 +30,7 @@ export const Sidebar = () => {
         <NavLinks/>
         <Button onClick={openDrawer} className="p-2"><HiMenuAlt3 className="text-black text-2xl"/></Button>
       </div>
-      <Drawer open={open} onClose={closeDrawer} className="fixed right-0-0 top-0 bg-white z-20">
+      <Drawer open={open} onClose={closeDrawer} overlay={false} className="fixed right-0-0 top-0 bg-white z-20">
         <div className="mb-2 flex items-center justify-between p-4">
           <Typography variant="h5" color="blue-gray">
             Menu
