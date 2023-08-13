@@ -8,7 +8,7 @@ import {
 } from "@material-tailwind/react";
 import { DiHtml5, DiCss3, DiJavascript, DiReact, DiMysql, DiMongodb } from "react-icons/di";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiExpress, SiJest, SiNestjs, SiPrisma, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiCsharp, SiDotnet, SiExpress, SiJest, SiNestjs, SiPrisma, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { FaGitAlt, FaGithub, FaNodeJs } from "react-icons/fa";
 import { AccordionTooltip } from "../Tooltip/accordion";
 
@@ -45,20 +45,16 @@ export const AnimatedAccordion = () => {
           Tecnologias principais
         </AccordionHeader>
         <AccordionBody className="flex gap-3 flex-wrap">
-            <AccordionTooltip tecName="Html5" icon={<DiHtml5 className="text-3xl text-orange-600"/>}/>
-            <AccordionTooltip tecName="CSS3" icon={<DiCss3 className="text-3xl text-blue-600"/>}/>
             <AccordionTooltip tecName="JavaScript" icon={<DiJavascript className="text-3xl text-yellow-500"/>}/>
             <AccordionTooltip tecName="TypeScript" icon={<SiTypescript className="text-3xl text-blue-500"/>}/>
             <AccordionTooltip tecName="React.js" icon={<DiReact className="text-3xl text-blue-400"/>}/>
             <AccordionTooltip tecName="Next.js" icon={<TbBrandNextjs className="text-3xl text-black"/>}/>
             <AccordionTooltip tecName="TailwindCSS" icon={<SiTailwindcss className="text-3xl text-cyan-400"/>}/>
             <AccordionTooltip tecName="Node.js" icon={<FaNodeJs className="text-3xl text-green-600"/>}/>
-            <AccordionTooltip tecName="Express.js" icon={<SiExpress className="text-3xl text-black"/>}/>
-            <AccordionTooltip tecName="Nest.js" icon={<SiNestjs className="text-3xl text-rose-600"/>}/>
+            <AccordionTooltip tecName="C#" icon={<SiCsharp className="text-3xl text-green-600"/>}/>
+            <AccordionTooltip tecName=".NET" icon={<SiDotnet className="text-3xl text-purple-600"/>}/>
             <AccordionTooltip tecName="MySQL" icon={<DiMysql className="text-3xl text-sky-400"/>}/>
             <AccordionTooltip tecName="MongoDB" icon={<DiMongodb className="text-3xl text-lime-500"/>}/>
-            <AccordionTooltip tecName="Prisma ORM" icon={<SiPrisma className="text-3xl text-cyan-900"/>}/>
-            <AccordionTooltip tecName="Jest" icon={<SiJest className="text-3xl text-orange-700"/>}/>
             <AccordionTooltip tecName="Git" icon={<FaGitAlt className="text-3xl text-orange-600"/>}/>
             <AccordionTooltip tecName="Github" icon={<FaGithub className="text-3xl text-gray-800"/>}/>
         </AccordionBody>

@@ -23,7 +23,7 @@ export const TimeLine = () => {
             <TimelineIcon className="p-2 bg-gray-100">
               <FaLightbulb className="text-xl text-yellow-300" />
             </TimelineIcon>
-            <Typography variant="h5" color="black">
+            <Typography variant="h5">
               Julho de 2021 | O início
             </Typography>
 
@@ -31,7 +31,6 @@ export const TimeLine = () => {
           <TimelineBody className="pb-8">
 
             <ul>
-              <li className="list-disc">Conheci a programação através do meu primo</li>
               <li className="list-disc">Lógica, estrutura de dados e algorítmos em C e Python mentorado pelo meu primo e o Guanabara do curso em vídeo</li>
               <li className="list-disc">Fundamentos do Front-end, HTML, CSS e JavaScript</li>
               <li className="list-disc">Git e Github, Início no desenvolvimento de projetos versionados</li>
@@ -45,7 +44,7 @@ export const TimeLine = () => {
             <TimelineIcon className="p-2 bg-gray-100">
               <IoIosSchool className="text-xl text-blue-900" />
             </TimelineIcon>
-            <Typography variant="h5" color="red">
+            <Typography variant="h5">
               2022 | Front-End
             </Typography>
 
@@ -53,10 +52,9 @@ export const TimeLine = () => {
           <TimelineBody className="pb-8">
 
             <ul>
-              <li className="list-disc">Iniciei o curso de Engenharia de Software na Universidade Unisales de Vitória</li>
-              <li className="list-disc">Exercícios de lógica em C, orientação à objetos com Java, Prototipação com Figma e Metologias àgeis</li>
-              <li className="list-disc">Cursos e projetos paralelos de Front-end, HTML, CSS e JavaScript</li>
-              <li className="list-disc">Início dos estudos da biblioteca React.js e projetos práticos</li>
+              <li className="list-disc">Início do curso de Engenharia de Software na Universidade Unisales de Vitória</li>
+              <li className="list-disc">Exercícios de lógica em C, orientação à objetos com Java, Prototipação com Figma e Metologias àgeis(Scrum, kanban, TDD)</li>
+              <li className="list-disc">Cursos e projetos paralelos de Front-end, HTML, CSS e JavaScript e React</li>
             </ul>
 
           </TimelineBody>
@@ -66,7 +64,7 @@ export const TimeLine = () => {
             <TimelineIcon className="p-2 bg-gray-100">
               <FaServer className="text-lg text-green-600" />
             </TimelineIcon>
-            <Typography variant="h5" color="blue-gray">
+            <Typography variant="h5">
               2023 | Back-end
             </Typography>
 
@@ -74,11 +72,10 @@ export const TimeLine = () => {
           <TimelineBody>
 
             <ul>
-              <li className="list-disc">Desenvolvi APIs REST em Springboot, consultas básicas em SQL, testes com Postman e uso dos bancos de dados (MySQL e MongoDB)</li>
-              <li className="list-disc">Iniciei os estudos de Back-end em TypeScript com o Node (Express.js e Nest.js) </li>
-              <li className="list-disc">Iniciei os estudos no Framework Next.js e no Framework CSS TailwindCSS</li>
+              <li className="list-disc">Desenvolvimento de APIs REST com Spring boot, ORM JPA Hibernate, MySQL e Testes com Postman</li>
+              <li className="list-disc">Desenvolvimento de APIs REST em Node com Express, Nest, Prisma, Sequelize, mongoose, Arquiterura MVC, JWT, TypeScript e Swagger</li>
+              <li className="list-disc">Desenvolvimento de interfaces com Next e TailwindCSS</li>
             </ul>
-
           </TimelineBody>
         </TimelineItem>
       </Timeline>
