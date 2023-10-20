@@ -50,9 +50,6 @@ export const AnimatedAccordion = () => {
             <AccordionTooltip tecName="React.js" icon={<DiReact className="text-3xl text-blue-400"/>}/>
             <AccordionTooltip tecName="Next.js" icon={<TbBrandNextjs className="text-3xl text-black"/>}/>
             <AccordionTooltip tecName="Nest.js" icon={<SiNestjs  className="text-3xl text-rose-500"/>}/>
-            <AccordionTooltip tecName="MySQL" icon={<DiMysql className="text-3xl text-sky-400"/>}/>
-            <AccordionTooltip tecName="Git" icon={<FaGitAlt className="text-3xl text-orange-600"/>}/>
-            <AccordionTooltip tecName="Github" icon={<FaGithub className="text-3xl text-gray-800"/>}/>
         </AccordionBody>
       </Accordion>
     </>

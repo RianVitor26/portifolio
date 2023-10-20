@@ -15,6 +15,7 @@ import React from "react";
 import { Card1Tooltip } from "../Tooltip/card1";
 import { Card2Tooltip } from "../Tooltip/card2";
 import { Card3Tooltip } from "../Tooltip/card3";
+import { Card4Tooltip } from "../Tooltip/card4";
    
   export const ProjectCard = ({imgSrc, alt, title, desc, srcCode, site}: any) =>  {
     return (
@@ -44,7 +45,8 @@ import { Card3Tooltip } from "../Tooltip/card3";
           <div className="group mt-8 inline-flex flex-wrap items-center gap-3">
               {title === "Github Repos" ? <Card1Tooltip/> : null}
               {title === "Blog API" ? <Card2Tooltip/> : null}
-              {title === "React CRUD" ? <Card3Tooltip/> : null}
+              {title === "Flash Cards Front end" ? <Card3Tooltip/> : null}
+              {title === "Flash Cards API" ? <Card4Tooltip/> : null}
           </div>
         </CardBody>
         <CardFooter className="pt-3">

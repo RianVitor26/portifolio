@@ -1,10 +1,10 @@
 import { Tooltip, Button } from "@material-tailwind/react";
-import { DiMongodb } from "react-icons/di";
+import { SiNestjs, SiPostman, SiPrisma, SiSwagger, SiTypescript } from "react-icons/si";
+import { GrMysql } from "react-icons/gr"
 import { FaNodeJs } from "react-icons/fa";
-import { SiExpress, SiInsomnia, SiSwagger, SiTypescript } from "react-icons/si";
 
 
-export const Card2Tooltip = () => {
+export const Card4Tooltip = () => {
   return (
     <>
       <Tooltip
@@ -22,14 +22,14 @@ export const Card2Tooltip = () => {
 
       <Tooltip
         className="bg-gray-900 p-3 text-gray-100 rounded-md"
-        content="Express.js"
+        content="Nest.js"
         animate={{
           mount: { scale: 1, y: 0 },
           unmount: { scale: 0, y: 25 },
         }}
       >
         <Button className="shadow-none">
-          <SiExpress className="text-3xl text-black" />
+          <SiNestjs className="text-3xl text-rose-500" />
         </Button>
       </Tooltip>
 
@@ -46,18 +46,33 @@ export const Card2Tooltip = () => {
         </Button>
 
       </Tooltip>
+
       <Tooltip
         className="bg-gray-900 p-3 text-gray-100 rounded-md"
-        content="MongoDB"
+        content="MySQL"
         animate={{
           mount: { scale: 1, y: 0 },
           unmount: { scale: 0, y: 25 },
         }}
       >
         <Button className="shadow-none">
-          <DiMongodb className="text-3xl text-lime-600" />
+          <GrMysql className="text-3xl text-blue-500" />
         </Button>
       </Tooltip>
+
+      <Tooltip
+        className="bg-gray-900 p-3 text-gray-100 rounded-md"
+        content="Prisma ORM"
+        animate={{
+          mount: { scale: 1, y: 0 },
+          unmount: { scale: 0, y: 25 },
+        }}
+      >
+        <Button className="shadow-none">
+          <SiPrisma className="text-3xl text-cyan-900" />
+        </Button>
+      </Tooltip>
+
       <Tooltip
         className="bg-gray-900 p-3 text-gray-100 rounded-md"
         content="Swagger"
@@ -70,16 +85,17 @@ export const Card2Tooltip = () => {
           <SiSwagger className="text-3xl text-lime-600" />
         </Button>
       </Tooltip>
+
       <Tooltip
         className="bg-gray-900 p-3 text-gray-100 rounded-md"
-        content="Insomnia"
+        content="Postman API"
         animate={{
           mount: { scale: 1, y: 0 },
           unmount: { scale: 0, y: 25 },
         }}
       >
         <Button className="shadow-none">
-          <SiInsomnia className="text-3xl text-violet-600" />
+          <SiPostman className="text-3xl text-orange-600" />
         </Button>
       </Tooltip>
     </>

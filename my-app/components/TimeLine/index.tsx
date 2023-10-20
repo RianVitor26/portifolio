@@ -31,7 +31,7 @@ export const TimeLine = () => {
           <TimelineBody className="pb-8">
 
             <ul>
-              <li className="list-disc">Lógica, estrutura de dados e algorítmos em C e Python mentorado pelo meu primo e o Guanabara do curso em vídeo</li>
+              <li className="list-disc">Lógica, estrutura de dados e algorítmos em C e Python</li>
               <li className="list-disc">Fundamentos do Front-end, HTML, CSS e JavaScript</li>
               <li className="list-disc">Git e Github, Início no desenvolvimento de projetos versionados</li>
             </ul>
@@ -53,7 +53,7 @@ export const TimeLine = () => {
 
             <ul>
               <li className="list-disc">Início do curso de Engenharia de Software na Universidade Unisales de Vitória</li>
-              <li className="list-disc">Exercícios de lógica em C, orientação à objetos com Java, Prototipação com Figma e Metologias àgeis(Scrum, kanban, TDD)</li>
+              <li className="list-disc">Exercícios de lógica em C, orientação à objetos com Java, Prototipação, Metologias àgeis...</li>
               <li className="list-disc">Cursos e projetos paralelos de Front-end, HTML, CSS e JavaScript e React</li>
             </ul>
 
@@ -70,11 +70,10 @@ export const TimeLine = () => {
 
           </TimelineHeader>
           <TimelineBody>
-
             <ul>
-              <li className="list-disc">Desenvolvimento de APIs REST com Spring boot, ORM JPA Hibernate, MySQL e Testes com Postman</li>
-              <li className="list-disc">Desenvolvimento de APIs REST em Node com Express, Nest, Prisma, Sequelize, mongoose, Arquiterura MVC, JWT, TypeScript e Swagger</li>
-              <li className="list-disc">Desenvolvimento de interfaces com Next e TailwindCSS</li>
+              <li className="list-disc">Desenvolvimento de APIs REST em Java com Spring boot</li>
+              <li className="list-disc">Desenvolvimento de APIs REST em Node com Nest e Express</li>
+              <li className="list-disc">Desenvolvimento de interfaces em React com Next</li>
             </ul>
           </TimelineBody>
         </TimelineItem>
